@@ -1,0 +1,12 @@
+function BestParticle(numberOfParticles,positions)
+    for i=1:numberOfParticles
+       
+        x = positions(1,i);
+        y = positions(2,i);
+        
+        functionValue = (x^2 + y + 11)^2 + (x + y^2 -7)^2;
+      
+    end
+    
+
+end
